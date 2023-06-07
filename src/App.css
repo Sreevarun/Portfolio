@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Grape+Nuts&family=Smooch&family=Zen+Loop:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Grape+Nuts&family=Shadows+Into+Light&family=Smooch&family=Zen+Loop:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Grape+Nuts&family=Roboto:wght@500&family=Shadows+Into+Light&family=Smooch&family=Zen+Loop:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Grape+Nuts&family=Roboto:wght@500&family=Shadows+Into+Light&family=Smooch&family=Zen+Loop:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Dancing+Script:wght@700&family=Grape+Nuts&family=Roboto:wght@500&family=Shadows+Into+Light&family=Smooch&family=Zen+Loop:ital@0;1&display=swap');
+
+.main{
+ /* background-image: url(./Components/bgi.jpg);*/
+}
+html,div,body{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+a{
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+.header{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-bottom: 2px solid lightcyan;
+  background-color: grey;
+  color: white;
+  margin-bottom: 3px;
+  font-family: 'Abel', sans-serif;
+font-family: 'Grape Nuts', cursive;
+font-family: 'Smooch', cursive;
+font-family: 'Zen Loop', cursive;
+  font-size:27px;
+  border-radius: 2px;
+}
+.nav{
+  display: flex;
+  justify-content:flex-end;
+  border-bottom: 2px solid gray;
+  background-color: lightgray;
+  margin-bottom: 3px;
+}
+.nav-about{
+  padding: 0px 5px 0px 5px;
+  font-size: 20px;
+}
+.nav-about:hover{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.nav-project{
+  padding: 0px 5px 0px 5px;
+  font-size: 20px;
+}
+.nav-project:hover{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+}
+.nav-social{
+  padding: 0px 5px 0px 5px;
+  font-size: 20px;
+}
+.nav-social:hover{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+}
+.nav-connect{
+  padding: 0px 5px 0px 5px;
+  font-size: 20px;
+}
+.nav-connect:hover{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+}
+.title{
+  display: flex;
+  justify-content:center;
+  padding: auto;
+  color: black;
+  background-color: lightgray;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Grape Nuts', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Smooch', cursive;
+  font-family: 'Zen Loop', cursive;
+  font-size: 29px;
+  border-radius: 2px;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+.about{
+  margin-bottom: 5px;
+  border-bottom: 2px solid gray;
+  background-image: url(./Components/Thems/4.jpg);
+  border-radius: 2px;
+}
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#about>* {
+  flex: 1 1 160px;
+}
+.about-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
+.about-info{
+  font-family: 'Abel', sans-serif;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Grape Nuts', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Smooch', cursive;
+  font-family: 'Zen Loop', cursive;
+  font-weight: bold;
+  font-size: 35px;
+}
+.about-tittle{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  /*background-color: lightgoldenrodyellow;*/
+  padding-right: 10px;
+  font-family: 'Smooch', cursive;
+  font-size:40px;
+}
+.about-skill-titil{
+  font-family: 'Abel', sans-serif;
+  font-family: 'Grape Nuts', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Smooch', cursive;
+  font-family: 'Zen Loop', cursive;
+  font-size :30px;
+}
+.about-skills{
+  font-family: 'Abel', sans-serif;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Grape Nuts', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Smooch', cursive;
+  font-family: 'Zen Loop', cursive;
+  font-size :30px;
+  font-weight: bold;
+}
+#project {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: lightslategray;
+  border-radius: 3px;
+  border-bottom: 3px solid gray;
+  margin-bottom: 5px;
+}
+#project>* {
+  flex: 1 1 160px;
+}
+.project1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+
+}
+.project2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.projectTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Smooch', cursive;
+  font-size:45px;
+}
+.projectName{
+  margin-bottom: 5px; 
+}
+#socialNetwork {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 2px;
+  background-image: url(./Components/Thems/2.jpg);
+  border-bottom: 3px solid gray;
+  margin-bottom: 5px;
+}
+#socialNetwork>* {
+  flex: 1 1 160px;
+}
+.TechNetwork{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.connectForm{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 100px;
+}
+.txt{
+  width: 300px;
+  margin-top :5px;
+
+}
+ .msg{
+  width: 300px;
+  height: 50px;
+  margin-top :5px;
+  
+} 
+.connect{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1 1 160px;
+  padding: 30px 0px 30px 0px;
+  border: 2px solid lightgray;
+  border-radius: 2px;
+  background-image: url(./Components/bgi.jpg);
+}
+.connectTittle{
+  display: flex;
+  justify-content: center;
+
+}
+button:hover{
+   padding:10px;
+   cursor: pointer;
+}
