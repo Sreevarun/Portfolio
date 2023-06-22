@@ -47,7 +47,7 @@ const Portfolio = () => {
                  <h1 className='about-skill-titil'>Skills</h1>               
                  <ol className="about-skills">
                      <li>C</li>
-                     <li>java</li>
+                     <li>python</li>
                      <li>C++</li>
                      <li>javascript</li>
                      <li>web frontend using React</li>
@@ -58,11 +58,11 @@ const Portfolio = () => {
           <div className="project"  id="project">
           <h2 className='projectTitle'>projects</h2>
               <div className="project1">
-               <a href="#" target="_blank"> <img src={project1}  alt='Weather app'/></a>
+               <a href="https://github.com/Sreevarun/WeatherApp" target="_blank"> <img src={project1}  alt='Weather app'/></a>
                 <b className='projectName'>Weather app</b>
               </div>
               <div  className="project2">
-             <a href='#' target="_blank"> <img src={project2}  alt='Notes app'/></a>
+             <a href='https://github.com/Sreevarun/Notes_reactjs' target="_blank"> <img src={project2}  alt='Notes app'/></a>
                 <b className='projectName'>Notes app</b>
               </div>
 
