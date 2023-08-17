@@ -56,14 +56,14 @@ const Portfolio = () => {
           </div>
 
           <div className="project"  id="project">
-          <h2 className='projectTitle'>projects</h2>
+          <h2 className='projectTitle'>Figma projects</h2>
               <div className="project1">
-               <a href="https://github.com/Sreevarun/WeatherApp" target="_blank"> <img src={project1}  alt='Weather app'/></a>
-                <b className='projectName'>Weather app</b>
+               <a href="https://www.figma.com/proto/g3ZUK05Cp5LkBQfjCv4H4q/PaymentApp?page-id=0%3A1&type=design&node-id=2-193&viewport=1082%2C764%2C0.41&t=ihUqTEdafglBjh2H-1&scaling=scale-down&starting-point-node-id=2%3A193&show-proto-sidebar=1&mode=design" target="_blank"> <img src={project1}  alt='Weather app'/></a>
+                <b className='projectName'>Payment app(mobile)</b>
               </div>
               <div  className="project2">
-             <a href='https://github.com/Sreevarun/Notes_reactjs' target="_blank"> <img src={project2}  alt='Notes app'/></a>
-                <b className='projectName'>Notes app</b>
+             <a href='https://www.figma.com/proto/fqNZfnIa0ZiDi1rRzelNy5/Untitled?page-id=3%3A3&type=design&node-id=14-338&viewport=408%2C584%2C0.32&t=9HqFtQfPjBAbmvlJ-1&scaling=scale-down&starting-point-node-id=14%3A338&mode=design' target="_blank"> <img src={project2}  alt='Notes app'/></a>
+                <b className='projectName'>Chat app</b>
               </div>
 
           </div>
